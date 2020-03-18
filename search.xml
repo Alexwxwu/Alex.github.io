@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title></title>
-    <url>/Wu-wenxuan.github.io/2020/03/18/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88/</url>
+    <url>/2020/03/18/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88/</url>
     <content><![CDATA[<hr>
 <p>title: Alg<br>date: 2019-08-04  </p>
 <h2 id="tags-刷题"><a href="#tags-刷题" class="headerlink" title="tags: 刷题"></a>tags: 刷题</h2><h1 id="关于全排列问题"><a href="#关于全排列问题" class="headerlink" title="关于全排列问题"></a>关于全排列问题</h1><h2 id="解法：1递归"><a href="#解法：1递归" class="headerlink" title="解法：1递归"></a>解法：1递归</h2><p>通常采用带回溯的dfs算法，遍历多叉树<br>找到基线条件，进行交换或者插入方法<br>*</p>
@@ -10,7 +10,7 @@
   </entry>
   <entry>
     <title></title>
-    <url>/Wu-wenxuan.github.io/2020/03/18/Pytorch-%E7%AC%AC2%E7%AF%87/</url>
+    <url>/2020/03/18/Pytorch-%E7%AC%AC2%E7%AF%87/</url>
     <content><![CDATA[<h1 id="Pytorch"><a href="#Pytorch" class="headerlink" title="Pytorch"></a>Pytorch</h1><p>Variable<br>dtype: torch.float32<br>       torch.int64<br>tensor numpy 共享内存<br>依照数值：</p>
 <p>生成全零张量<br>torch.zeros_like()<br>torch.zeros()<br>torch.full()<br>torch.full_like()<br>创建等差的一维张量[start,end,steps)<br>torch.arrange()<br>创建均分的一维张量[start,end,steps)<br>tensor.linspace()<br>步长：end-start /(steps-1)<br>tensor.logspace()<br>tensor.eye()</p>
 <p>依据概率比分布：<br>生成正态分布<br>torch.normal() mean std<br>生成标准正态分布,均匀分布<br>torch.randn()<br>torch.rand_like()<br>生成随机排列<br>torch.randperm()<br>伯努利（0，1）<br>torch.bernoulli()</p>
@@ -20,7 +20,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/Wu-wenxuan.github.io/2020/03/18/hello-world/</url>
+    <url>/2020/03/18/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -34,7 +34,7 @@
   </entry>
   <entry>
     <title>Pytorch 第一篇</title>
-    <url>/Wu-wenxuan.github.io/2020/01/19/Pytorch-%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
+    <url>/2020/01/19/Pytorch-%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
     <content><![CDATA[<h1 id="Pytorch-第一篇"><a href="#Pytorch-第一篇" class="headerlink" title="Pytorch 第一篇"></a>Pytorch 第一篇</h1><hr>
 <p>Anaconda是神器，但作为初学者的我，还是处处踩坑。对于Python也是刚捡起来，以前并没多了解。<br>安装好Anaconda,CUDA,torch,torchversion，测试如下指令：<br>conda create -n pytorch_gpu python=3.7<br>报错：<img src="/Wu-wenxuan.github.io/2020/01/19/Pytorch-第一篇/error.png" alt="创建虚拟空间报错"><br>这应该是conda的问题，conda的python版本也没activate。尝试删掉pkgs文件夹重新执行指令，还是同样的报错。测试了一个下午，还是没找到解决办法。<br>最后卸载anaconda，进入whl的安装文件夹，采用 pip install —（torch官网选择合适版本的whl）<br>这里再cmd下执行了，但在pycharm的terminal中还需执行，否则不能install，会报错：  No module named ‘tools.nnwrap’，是版本不匹配的问题。我这里下载了python3.5版本的torch，本机python3.5. 在cmd测试可以正常import torch。猜测是pycharm解释器的选择问题？<br>还需要仔细了解Python的interpreter—–python.exe.<br><figure class="highlight plain"><figcaption><span>torch  </span></figcaption><table><tr><td class="code"><pre><span class="line">print(&quot;hello pytorch&#123;&#125;&quot;.format(torch.__version__))</span><br></pre></td></tr></table></figure></p>
 <h2 id><a href="#" class="headerlink" title></a><img src="/Wu-wenxuan.github.io/2020/01/19/Pytorch-第一篇/success.png" alt="cuda"></h2><p>这学期学过了Compiler principle，x86的Compilation,只是学校里简单的介绍。我对于高级语言转换成机器语言的完整过程还是很空白，没有一个完整的体系概念。我感觉自己现在杂乱无章，C++的动态链接库.dll，Jvm的运行机制，Python.exe解释器，很多实际遇到的问题都没法解决，或者停下来看，我觉得还是很可惜的。</p>
@@ -42,7 +42,7 @@
   </entry>
   <entry>
     <title>NLP_beginner</title>
-    <url>/Wu-wenxuan.github.io/2020/01/14/NLP-beginner/</url>
+    <url>/2020/01/14/NLP-beginner/</url>
     <content><![CDATA[<h1 id="NLP入门-day-0"><a href="#NLP入门-day-0" class="headerlink" title="NLP入门 day_0"></a>NLP入门 day_0</h1><p><img src="/Wu-wenxuan.github.io/2020/01/14/NLP-beginner/NLP_0.png" alt="NLP_0"></p>
 <h2 id="最近对NLP比较感兴趣，开始记录我的NLP学习之路"><a href="#最近对NLP比较感兴趣，开始记录我的NLP学习之路" class="headerlink" title="最近对NLP比较感兴趣，开始记录我的NLP学习之路"></a>最近对NLP比较感兴趣，开始记录我的NLP学习之路</h2>]]></content>
       <tags>
@@ -51,7 +51,7 @@
   </entry>
   <entry>
     <title>MongoDB------第一篇</title>
-    <url>/Wu-wenxuan.github.io/2019/09/24/MongoDB%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
+    <url>/2019/09/24/MongoDB%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
     <content><![CDATA[<h1 id="MongoDB——第一篇"><a href="#MongoDB——第一篇" class="headerlink" title="MongoDB——第一篇"></a>MongoDB——第一篇</h1><h2 id="1-什么是momgodb："><a href="#1-什么是momgodb：" class="headerlink" title="1.什么是momgodb："></a>1.什么是momgodb：</h2><p>MongoDB 将数据存储为一个文档，数据结构由(key=&gt;value)对组成。MongoDB文档类似于Json对象(BSON):<br>1.支持多种查询语言，还可以对数据库建立索引<br>2.面向集合存储，容易存储对象类型的数据  </p>
 <p>面向集合:Collection-Oriented 数据被分组存在数据集中，被称为一个集合每个集合在数据库中都有一个唯一的标识名，并且可以包含无限数目的文档。集合的概念类似关系型数据库（RDBMS）里的表（table），不同的是它不需要定义任何模式（schema) 。   </p>
 <p>存储在集合中的文档，被存储为键-值对的形式。键用于唯一标识一个文档，为字符串类型，而值则可以是各种复杂的文件类型。我们称这种存储形式为BSON（Binary Serialized Document Format）。<br>3</p>
@@ -62,7 +62,7 @@
   </entry>
   <entry>
     <title>MongoDB------第二篇</title>
-    <url>/Wu-wenxuan.github.io/2019/09/24/MongoDB%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
+    <url>/2019/09/24/MongoDB%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
     <content><![CDATA[<h1 id="Mongodb"><a href="#Mongodb" class="headerlink" title="Mongodb"></a>Mongodb</h1><p>@Document:标示映射到Mongodb文档上的领域对象  </p>
 <p>@Id:标示某个领域为ID域  </p>
 <p>@Indexed:标示某个字段为Mongodb的索引字段  </p>
@@ -73,7 +73,7 @@
   </entry>
   <entry>
     <title>JVM_day0</title>
-    <url>/Wu-wenxuan.github.io/2019/09/12/JVM_0/</url>
+    <url>/2019/09/12/JVM_0/</url>
     <content><![CDATA[<h1 id="JAVA-内存区域和内存溢出异常"><a href="#JAVA-内存区域和内存溢出异常" class="headerlink" title="JAVA 内存区域和内存溢出异常"></a>JAVA 内存区域和内存溢出异常</h1><h2 id="2-1-程序计数器"><a href="#2-1-程序计数器" class="headerlink" title="2.1 程序计数器"></a>2.1 程序计数器</h2><p>1.每条线程都需要一个程序计数器：java虚拟机的多线程是通过线程轮流切换并分配处理器执行时间的方式实现的，在任何一个确定的时刻，一个处理器只会执行一条线程中的指令，为了线程切换后可以恢复到正确的执行位置，每个线程拥有一个独立的counter，这类内存区域称为线程私有内存。</p>
 <h2 id="2-2-JVM-stacks虚拟机栈"><a href="#2-2-JVM-stacks虚拟机栈" class="headerlink" title="2.2 JVM stacks虚拟机栈"></a>2.2 JVM stacks虚拟机栈</h2><p>1.JVM stack描述的是Java方法执行的内存模型，每个方法执行，同时创建一个栈帧，用于存储局部变量表等信息，每一个方法从调用到执行完成的过程，就对应了一个栈帧的push，pop操作。</p>
 <p>2.一般把java内存分为Heap,Stack,Stack中的局部变量表存放了编译期各种基本数据类型（boolean,byte,char,short,int,float,long,double），其中，64位的double和long占用2个局部空间(slot)，其余各占1个，局部变量表所需的内存空间在编译期间完成分配。<br>3.两种异常：<br>stackover error：线程请求的栈深度大于虚拟机所允许的深度。<br>outofMemory error：动态拓展时候无法申请到足够的内存  </p>
@@ -82,7 +82,7 @@
   </entry>
   <entry>
     <title>接口和抽象类</title>
-    <url>/Wu-wenxuan.github.io/2019/09/01/%E5%85%B3%E4%BA%8E%E6%8E%A5%E5%8F%A3%E5%92%8C%E6%8A%BD%E8%B1%A1%E7%B1%BB/</url>
+    <url>/2019/09/01/%E5%85%B3%E4%BA%8E%E6%8E%A5%E5%8F%A3%E5%92%8C%E6%8A%BD%E8%B1%A1%E7%B1%BB/</url>
     <content><![CDATA[<h1 id="关于接口和抽象类"><a href="#关于接口和抽象类" class="headerlink" title="关于接口和抽象类"></a>关于接口和抽象类</h1><p><strong>接口(interface)和抽象类（abstract class）是和支持抽象类定义的两种机制。</strong></p>
 <p><strong>接口：</strong>公开的，不能有私有方法或者变量，接口中的所有方法都没有方法体，通过关键字interface实现。</p>
 <p><strong>抽象类：</strong>可以有私有方法或者变量，通过把类或者类中的方法声明为abstract来表示一个类是一个抽象类，被声明的抽象类不能有方法体</p>
@@ -94,7 +94,7 @@
   </entry>
   <entry>
     <title>Mybatis_day0</title>
-    <url>/Wu-wenxuan.github.io/2019/08/04/Mybatis_0/</url>
+    <url>/2019/08/04/Mybatis_0/</url>
     <content><![CDATA[<h1 id="MyBatis查询结果"><a href="#MyBatis查询结果" class="headerlink" title="MyBatis查询结果"></a>MyBatis查询结果</h1><h2 id="resultTtpe返回值类型："><a href="#resultTtpe返回值类型：" class="headerlink" title="resultTtpe返回值类型："></a><strong>resultTtpe返回值类型</strong>：</h2><p><strong>1.返回一般数据类型</strong><br>比如根据id获得数据库某个字段的值<br>mapper接口：<br><code>String getElemNameById(Integer id);</code><br>SQL映射文件：<br><code>&lt;select id=&quot;getElemNameById&quot; resultType=&quot;string&quot;&gt;</code><br>     <code>select username from t_employee where id =#{id}</code><br> <code>&lt;/select&gt;</code></p>
 <p><strong>2.返回JavaBean类型的数据</strong><br>比如根据某个字段获得数据库中的信息，把查询结果信息封装成某个JavaBean类型的数据<br>mapper接口：<br><code>Employee getElemNameById(Integer id);</code><br>SQL映射文件：<br><code>&lt;select id=&quot;getElemNameById&quot; resultType=&quot;employee&quot;&gt;</code><br>     <code>select*from t_employee where id =#{id}</code><br> <code>&lt;/select&gt;</code><br><strong>3.返回List类型  </strong><br>若查询的数据不止一条，比如模糊查询，全表查询等。这时候返回的数据可能是不止一条数据，多数据处理，放在List集合中<br>mapper接口：<br><code>List&lt;Employee&gt;getAllEmps();</code><br>SQL映射文件：<br><code>&lt;select id=&quot;getAllEmps&quot; resultType=&quot;employee&quot;&gt;</code><br>    <code>select*from t_employee</code><br><code>&lt;/select&gt;</code>  </p>
 <p><strong>4.返回Map类型</strong><br>将查询到的数据封装成Map<br>1.查询的结果是一条，可以把查询的数据以{表字段名，对应的值}方式存入到Map中<br>mapper接口：<br>Map&lt;String,Object&gt;getEmAsMapById(Integer id);<br>2.若查询到的结果是多条数据，也可以把查询的数据以{表中某一字段名，JavaBean}方式封装成Map<br>mapper接口：<br>@MapKey(“id”)<br>Map&lt;Integer,Employee&gt; getAllEmpAsMap();</p>
@@ -105,7 +105,7 @@
   </entry>
   <entry>
     <title>Spring Boot_day0</title>
-    <url>/Wu-wenxuan.github.io/2019/07/28/spring%20boot_0/</url>
+    <url>/2019/07/28/spring%20boot_0/</url>
     <content><![CDATA[<p>#<strong>学习Spring Boot</strong></p>
 <p>##第一篇</p>
 <p>##<strong>配置maven</strong></p>
@@ -143,7 +143,7 @@
   </entry>
   <entry>
     <title>Spring Boot_day1</title>
-    <url>/Wu-wenxuan.github.io/2019/07/28/spring%20boot_1/</url>
+    <url>/2019/07/28/spring%20boot_1/</url>
     <content><![CDATA[<h1 id="学习Spring-Boot"><a href="#学习Spring-Boot" class="headerlink" title="学习Spring Boot"></a><strong>学习Spring Boot</strong></h1><h2 id="第二篇"><a href="#第二篇" class="headerlink" title="第二篇"></a>第二篇</h2><p><strong>spring boot 集成redis</strong><br>stringRedisTemplate.opsForValue().get(“test”)//根据key获取缓存中的val<br><strong>spring boot 集成mongoDB</strong><br><strong>整合MyBatis</strong></p>
 <p><strong>map&lt;String,Object&gt;</strong><br><strong>POJO,BO,VO,DTO,DAO,PO</strong><br>PO：持久对象，一个PO就是数据库中的一条记录<br>BO：业务对象，把业务逻辑封装为一个对象，这个对象可以包括一个或多个其他对象<br>VO:视图的对象，对于一个web页面，将整个页面属性封装为一个对象，然后用一个VO对象在视图层和控制层进行运输交换<br>POJO：<br>DAO:数据访问对象  </p>
 ]]></content>
@@ -153,7 +153,7 @@
   </entry>
   <entry>
     <title>跨域问题</title>
-    <url>/Wu-wenxuan.github.io/2019/07/28/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</url>
+    <url>/2019/07/28/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h1 id="跨域问题"><a href="#跨域问题" class="headerlink" title="跨域问题"></a>跨域问题</h1><p>跨域资源共享（CORS）</p>
 ]]></content>
       <tags>
@@ -162,7 +162,7 @@
   </entry>
   <entry>
     <title>Get&amp;Post</title>
-    <url>/Wu-wenxuan.github.io/2019/07/21/Get&amp;Post/</url>
+    <url>/2019/07/21/Get&amp;Post/</url>
     <content><![CDATA[<p>##关于Get和Post</p>
 <p>参考链接：<a href="https://blog.csdn.net/yipiankongbai/article/" target="_blank" rel="noopener">https://blog.csdn.net/yipiankongbai/article/</a><br>**表现形式：<br>Http请求格式 </p>
 <p><code>&lt;method&gt;&lt;request-URL&gt;&lt;version&gt;</code><br><code>&lt;headers&gt;</code>  </p>
@@ -177,7 +177,7 @@
   </entry>
   <entry>
     <title>无法更新博客</title>
-    <url>/Wu-wenxuan.github.io/2019/02/24/%E6%97%A0%E6%B3%95%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2/</url>
+    <url>/2019/02/24/%E6%97%A0%E6%B3%95%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>#关于HEXO上传图片问题<br>1.问题：写第一篇博客时候，上传图片失败，页面没有显示，更改_config,yml文件以后可以生成一个新建的md所对应的文件夹，将图片放入该文件夹，执行hexo d -g，重新加载页面可以显示。但是后续上传的一些图片又无法显示了，github上对图片提示：”Binary File not shown”，其他已经上传的图片显示： File renamed without changes。解决：待补充</p>
 <hr>
 <p>解决：Hexo框架上传图片，再source文件-——post文件中生成的新文件夹，里面放该篇博客所用的图片，数量不能太多，另外，要使用 hexo -clean 清除浏览器缓存，再用hexo -g ，hexo -d命令部署再GitHub上。</p>
@@ -185,7 +185,7 @@
   </entry>
   <entry>
     <title>寒假学习记录</title>
-    <url>/Wu-wenxuan.github.io/2019/02/20/%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
+    <url>/2019/02/20/%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h1><p><em>这是我的第一篇博客，主要练习一下markdown语法并记录一下寒假学习知识</em></p>
 <h1 id="phpstudy-mysql-xss实现留言板攻击"><a href="#phpstudy-mysql-xss实现留言板攻击" class="headerlink" title="phpstudy+mysql+xss实现留言板攻击"></a>phpstudy+mysql+xss实现留言板攻击</h1><ol>
 <li>准备部分<br>初次接触php,下载安装phpstudy，phpstorm，打开自带的mysql数据库。</li>
@@ -216,7 +216,7 @@
   </entry>
   <entry>
     <title>pagehello</title>
-    <url>/Wu-wenxuan.github.io/2019/01/21/pagehello/</url>
+    <url>/2019/01/21/pagehello/</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
