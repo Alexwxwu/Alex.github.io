@@ -104,6 +104,16 @@
       </tags>
   </entry>
   <entry>
+    <title>Spring Boot_day1</title>
+    <url>/2019/07/28/spring%20boot_1/</url>
+    <content><![CDATA[<h1 id="学习Spring-Boot"><a href="#学习Spring-Boot" class="headerlink" title="学习Spring Boot"></a><strong>学习Spring Boot</strong></h1><h2 id="第二篇"><a href="#第二篇" class="headerlink" title="第二篇"></a>第二篇</h2><p><strong>spring boot 集成redis</strong><br>stringRedisTemplate.opsForValue().get(“test”)//根据key获取缓存中的val<br><strong>spring boot 集成mongoDB</strong><br><strong>整合MyBatis</strong></p>
+<p><strong>map&lt;String,Object&gt;</strong><br><strong>POJO,BO,VO,DTO,DAO,PO</strong><br>PO：持久对象，一个PO就是数据库中的一条记录<br>BO：业务对象，把业务逻辑封装为一个对象，这个对象可以包括一个或多个其他对象<br>VO:视图的对象，对于一个web页面，将整个页面属性封装为一个对象，然后用一个VO对象在视图层和控制层进行运输交换<br>POJO：<br>DAO:数据访问对象  </p>
+]]></content>
+      <tags>
+        <tag>Spring Boot</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Spring Boot_day0</title>
     <url>/2019/07/28/spring%20boot_0/</url>
     <content><![CDATA[<p>#<strong>学习Spring Boot</strong></p>
@@ -136,16 +146,6 @@
 <p><img src="/2019/07/28/spring boot_0/day0_3.png" alt="REST"></p>
 <p>##thymeleaf：<br>thymeleaf是纯HTML，和jsp一样，但不需要服务器，是spring boot前端显示的一个模板</p>
 <p>##Swagger2：<br>Api接口生成文档工具</p>
-]]></content>
-      <tags>
-        <tag>Spring Boot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spring Boot_day1</title>
-    <url>/2019/07/28/spring%20boot_1/</url>
-    <content><![CDATA[<h1 id="学习Spring-Boot"><a href="#学习Spring-Boot" class="headerlink" title="学习Spring Boot"></a><strong>学习Spring Boot</strong></h1><h2 id="第二篇"><a href="#第二篇" class="headerlink" title="第二篇"></a>第二篇</h2><p><strong>spring boot 集成redis</strong><br>stringRedisTemplate.opsForValue().get(“test”)//根据key获取缓存中的val<br><strong>spring boot 集成mongoDB</strong><br><strong>整合MyBatis</strong></p>
-<p><strong>map&lt;String,Object&gt;</strong><br><strong>POJO,BO,VO,DTO,DAO,PO</strong><br>PO：持久对象，一个PO就是数据库中的一条记录<br>BO：业务对象，把业务逻辑封装为一个对象，这个对象可以包括一个或多个其他对象<br>VO:视图的对象，对于一个web页面，将整个页面属性封装为一个对象，然后用一个VO对象在视图层和控制层进行运输交换<br>POJO：<br>DAO:数据访问对象  </p>
 ]]></content>
       <tags>
         <tag>Spring Boot</tag>

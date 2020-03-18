@@ -251,6 +251,30 @@
   </entry>
   
   <entry>
+    <title>Spring Boot_day1</title>
+    <link href="https://wu-wenxuan.github.io/2019/07/28/spring%20boot_1/"/>
+    <id>https://wu-wenxuan.github.io/2019/07/28/spring%20boot_1/</id>
+    <published>2019-07-27T16:00:00.000Z</published>
+    <updated>2020-01-15T02:15:26.913Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="学习Spring-Boot"><a href="#学习Spring-Boot" class="headerlink" title="学习Spring Boot"></a><strong>学习Spring Boot</strong></h1><h2 id="第二篇"><a href="#第二篇" class="headerlink" title="第二篇"></a>第二篇</h2><p><strong>spring boot 集成redis</strong><br>stringRedisTemplate.opsForValue().get(“test”)//根据key获取缓存中的val<br><strong>spring boot 集成mongoDB</strong><br><strong>整合MyBatis</strong></p><p><strong>map&lt;String,Object&gt;</strong><br><strong>POJO,BO,VO,DTO,DAO,PO</strong><br>PO：持久对象，一个PO就是数据库中的一条记录<br>BO：业务对象，把业务逻辑封装为一个对象，这个对象可以包括一个或多个其他对象<br>VO:视图的对象，对于一个web页面，将整个页面属性封装为一个对象，然后用一个VO对象在视图层和控制层进行运输交换<br>POJO：<br>DAO:数据访问对象  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;学习Spring-Boot&quot;&gt;&lt;a href=&quot;#学习Spring-Boot&quot; class=&quot;headerlink&quot; title=&quot;学习Spring Boot&quot;&gt;&lt;/a&gt;&lt;strong&gt;学习Spring Boot&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&quot;第二篇&quot;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Spring Boot" scheme="https://wu-wenxuan.github.io/tags/Spring-Boot/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Spring Boot_day0</title>
     <link href="https://wu-wenxuan.github.io/2019/07/28/spring%20boot_0/"/>
     <id>https://wu-wenxuan.github.io/2019/07/28/spring%20boot_0/</id>
@@ -267,30 +291,6 @@
 &lt;p&gt;##第一篇&lt;/p&gt;
 &lt;p&gt;##&lt;strong&gt;配置maven&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;##&lt;strong&gt;Spring Boot工程结构&lt;/strong&gt;&lt;br&gt;以下结构是比较推荐的pac
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Spring Boot" scheme="https://wu-wenxuan.github.io/tags/Spring-Boot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring Boot_day1</title>
-    <link href="https://wu-wenxuan.github.io/2019/07/28/spring%20boot_1/"/>
-    <id>https://wu-wenxuan.github.io/2019/07/28/spring%20boot_1/</id>
-    <published>2019-07-27T16:00:00.000Z</published>
-    <updated>2020-01-15T02:15:26.913Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="学习Spring-Boot"><a href="#学习Spring-Boot" class="headerlink" title="学习Spring Boot"></a><strong>学习Spring Boot</strong></h1><h2 id="第二篇"><a href="#第二篇" class="headerlink" title="第二篇"></a>第二篇</h2><p><strong>spring boot 集成redis</strong><br>stringRedisTemplate.opsForValue().get(“test”)//根据key获取缓存中的val<br><strong>spring boot 集成mongoDB</strong><br><strong>整合MyBatis</strong></p><p><strong>map&lt;String,Object&gt;</strong><br><strong>POJO,BO,VO,DTO,DAO,PO</strong><br>PO：持久对象，一个PO就是数据库中的一条记录<br>BO：业务对象，把业务逻辑封装为一个对象，这个对象可以包括一个或多个其他对象<br>VO:视图的对象，对于一个web页面，将整个页面属性封装为一个对象，然后用一个VO对象在视图层和控制层进行运输交换<br>POJO：<br>DAO:数据访问对象  </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;学习Spring-Boot&quot;&gt;&lt;a href=&quot;#学习Spring-Boot&quot; class=&quot;headerlink&quot; title=&quot;学习Spring Boot&quot;&gt;&lt;/a&gt;&lt;strong&gt;学习Spring Boot&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&quot;第二篇&quot;
       
     
     </summary>
